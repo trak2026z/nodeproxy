@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.13.11",
+    "express": "^4.22.3",
+    "node-fetch": "^3.3.2",
+    "cors": "^2.8.5"
+  },
+  "overrides": {
+    "proxy-addr": "^2.0.8"
+  }
+}
